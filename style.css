@@ -52,19 +52,22 @@ select {
   color: #333;
   cursor: pointer;
 }
+button[class]{
+  border: 2px solid red;
+}
 
 button {
   width: 100%;
   padding: 10px;
-  background-color:#4CAF50;
+  background-color:black;
   color: #fff;
-  border:none;
-  border-radius: 10px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 button:hover{
   
-  background-color:black;
+  background-color:red;
 }
 
 @media only screen and (min-width: 600px) {

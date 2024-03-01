@@ -92,6 +92,10 @@ button[class]{
   cursor: pointer;
   margin: 10px 0; /* Adjusted margin for spacing */
 }
+.size1:hover{
+  background-color:red;
+  color: white;
+}
 
 label,
 textarea {
